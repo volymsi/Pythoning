@@ -1,7 +1,4 @@
-# объявление функции
-def draw_triangle():
-    for i in range(8):
-        print((7-i)*' ' + '*' * (i+1) + '*'*i)
+myset = {'Yellow', 'Orange', 'Black'}
 
-# основная программа
-draw_triangle()  # вызов функции
+myset.update(['Blue', 'Green', 'Red', 'Orange'])
+print(myset)
